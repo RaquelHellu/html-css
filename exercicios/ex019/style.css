@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+/*
+    em HTML é id = em CSS é #
+    em HTML é class = em CSS é .
+*/
+
+body{
+    background-image: linear-gradient(to left, #ddcdcb,#F2C2C9);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-attachment: fixed;
+    text-align: justify;
+}
+
+h1{
+    color: #F56480;
+    font-size: 25px;
+    text-shadow: 0.5px 0.5px 0.5px black;
+    
+    }
+
+h1#principal{
+    text-align: center;
+    font-size: 2em;
+    text-shadow: 1px 1px 0.5px black;
+    color: #ecacd3;
+    background-image: linear-gradient(to bottom, rgb(68, 21, 112),rgb(96, 72, 127))
+}
+
+h2{
+    color: black;
+    font-size: 17px;
+    }
+
+.basico{
+    color: rgb(72, 105, 18);
+}
+
+.intermediario{
+    color: rgb(174, 156, 53);
+}
+
+.avançado{
+    color: rgb(126, 54, 54);
+    font-weight: bolder;
+}

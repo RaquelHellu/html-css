@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-image: linear-gradient(to left, rgb(247, 215, 230), rgb(241, 182, 182));
+        }
+        h1{
+            box-shadow: inset 2px 1px 14px 6px rgba(0, 0, 0, 0.254);
+        }
+        header{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            text-align: center;
+        }
+        main{
+            background-color: rgb(243, 226, 235);
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px 0px;
+            text-align: justify;
+            box-shadow: 4px 4px 9px 0px rgba(0, 0, 0, 0.456);
+        }
+        nav{
+            background-color: rgb(232, 95, 118);
+            color: white;
+            padding: 2px;
+            font-weight: bolder;
+            box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.456);
+        }
+        a:hover{
+            background-color: white;
+            color:rgb(232, 95, 118);
+        }
+        article{
+            background-color: rgb(218, 192, 203);
+            padding: 0.6px;
+        }
+        nav > a{
+            text-decoration: none;
+            color: white;
+            margin-right: 30px;
+        }
+        article > aside{
+            background-color: rgb(183, 151, 159);
+            text-align: center;
+        }
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 4px;
+            margin: 0px;
+            font-weight: bold;
+            font-size: 10px;
+            bottom: 0px;
+            width: 100%;
+            position: bottom fixed;
+        }
+        footer > p {
+            margin: 0px;
+        }
+    </style>
+</head>
+<body>
+   <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">LINK</a>
+            <a href="#">LINK</a>
+            <a href="#">LINK</a>
+            <a href="#">LINK</a>
+            <a href="#">LINK</a>
+            <a href="#">LINK</a>
+            <a href="#">LINK</a>
+        </nav>
+   </header>
+   <main>
+       <section class="assuntos"></section>
+        <p>POLÍTICA RELIGIÃO</p>
+       <section id="notícias"></section>
+       <article>
+           <h2>Lorem Ipsum</h2>
+           <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe sequi veniam perspiciatis reiciendis voluptate porro, ducimus quis inventore, eaque illum, odio alias ipsum. Quis, ducimus nobis natus tempore veniam ratione.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere numquam distinctio nesciunt incidunt quidem ipsum explicabo eius quibusdam voluptas, debitis a labore deleniti eligendi nemo corporis nisi fugit nihil ullam.
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facere ducimus aspernatur, unde, earum minima ullam aperiam quam alias sequi aliquam animi tenetur repellat similique quod, ratione qui incidunt nemo! In. Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae quos quod quia ullam impedit nemo at magnam consequuntur consectetur. Delectus soluta magnam provident consectetur dolorem molestiae itaque perferendis deleniti nihil? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugiat nulla a cupiditate voluptatibus exercitationem omnis labore, necessitatibus corrupti asperiores error nesciunt magni, ex atque non cumque! Placeat suscipit omnis quam. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nulla veniam aperiam sit nostrum architecto repudiandae, ipsa dicta quas doloremque dolores? Ad odio nihil soluta voluptate, cupiditate accusamus rerum fugiat nemo. Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores blanditiis eligendi rerum perferendis ducimus quisquam aperiam accusamus commodi ea magni incidunt eos aut aliquam magnam maxime, aliquid excepturi repellat? Deserunt? Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, doloribus rerum. Fuga eligendi repudiandae facere perspiciatis voluptatum dolore iure, perferendis, aut voluptatem itaque earum eos mollitia est, quam sit reiciendis. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sequi corporis, itaque architecto nemo excepturi voluptas suscipit esse et qui molestiae voluptates, quae doloremque, obcaecati delectus optio quis molestias dignissimos modi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore maiores provident accusamus minima architecto voluptatibus repellendus corporis labore. Maxime, sapiente. Recusandae totam repellat quia eos sunt neque quibusdam illo saepe.
+           </p>
+           <aside>
+               <p>Artigo escrito por José</p>
+           </aside>
+       </article>
+   </main>
+   <footer> 
+        <p>Desenvolvido por Raquel Hellu</p>
+   </footer>
+</body>
+</html>
